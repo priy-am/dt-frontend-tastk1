@@ -1,0 +1,63 @@
+.text-blue {
+    color: #0029FF;
+    ;
+}
+
+.flex {
+    display: flex;
+}
+
+.red {
+    background-color: red;
+}
+
+.relative {
+    position: relative;
+}
+
+.font-700 {
+    font-weight: 700;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.drow-shdw {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.w-199 {
+    width: 199px;
+}
+
+.next-width {
+    Width:425px;
+    Height:108px;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.next-width input{
+    width: 425px;
+}
+
+.drow-shdw2{
+    box-shadow: 10px 10px 15px rgba(116, 114, 114, 0.3);
+}
+
+.line{
+    width: 480px;
+    height: 1px;
+    box-shadow: 10px 10px 15px rgba(116, 114, 114, 0.3);
+    background-color: gray;
+
+}
+
+.mt-30{
+    margin-top: 30px;
+}

@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,300;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.header {
+    background-color: #f0f0f0;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9rem;
+}
+
+.img {
+    height: 47px;
+}
+
+.right {
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon-backclr {
+    background: #3683F0;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.icon-clr {
+    color: white;
+}
+
+.dots {
+    color: #3683F0;
+}
+
+.sidebar {
+    Width: 132px;
+    Height: 692px;
+    border-radius: 0 20px 20px 0;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 10;
+    transition: width 0.4s ease-in-out; 
+}
+
+.heading {
+    font-family: Poppins;
+    font-weight: 600;
+    color: white;
+    background: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 0 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+    transition: width 0.4s ease-in-out; 
+}
+
+.heading h3 {
+    display: none;
+    transition: width 0.4s ease-in-out; 
+}
+
+.arrow {
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 7px;
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+}
+
+.list {
+    margin-top: 33px;
+    display: none;
+    z-index: 10;
+    transition: width 0.4s ease-in-out; 
+}
+
+.li {
+    font-weight: 600;
+    size: 16px;
+    margin-bottom: 29px;
+    font-size: 17px;
+}
+
+ul li {
+    position: relative;
+    margin-bottom: 10px;
+    /* Space between items */
+    padding-left: 64px;
+    /* Space to the left of the item text */
+}
+
+ul li::before {
+    content: '•';
+    /* Use dot as the marker */
+    position: absolute;
+    left: 32px;
+    color: black;
+    /* Set the color of the dot */
+    font-size: 20px;
+    /* Adjust the size of the dot */
+}
+
+.one {
+    border: 1px solid #0029FF;
+    border-radius: 20px;
+    width: 68px;
+    height: 68px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin-top: 33px;
+    margin-left: 19px;
+}
+
+.middle-portion {
+    position: absolute;
+    width: 1066px;
+    left: 187px;
+    top: 30px;
+    z-index: -2;
+}
+
+.middle-portion h5 {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 121px;
+    height: 36px;
+    color: white;
+    background-color: #0029FF;
+    border-radius: 9px;
+    border: none;
+    font-weight: 500;
+}
+
+.explore {
+    background-color: #E9ECEF;
+    height: 135px;
+    padding: 32px;
+    margin-top: 33px;
+}
+
+.para {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.feed {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+}
+
+.container {
+    height: 580px;
+    width: 480px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+    height: 50px;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    right: 15px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.description {
+    padding: 12px;
+}
+
+.description span {
+    font-weight: 600;
+    font: larger;
+}
+
+.content {
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+.image {
+    object-fit: cover;
+    width: 480px;
+}
+
+.thred {
+    font-family: sans-serif;
+    margin-left: 40px;
+
+}
+
+.subth {
+    margin-top: 50px;
+    margin-left: 35px;
+    gap: 9px;
+}
+
+.subthred {
+    height: 95px;
+    border-radius: 10px;
+}
+
+.subthred h6 {
+    padding: 4px 10px;
+    font-weight: normal;
+    font-size: medium;
+    background-color: #82808023;
+    border-radius: 10px 10px 0 0;
+}
+
+.subthred input {
+
+    padding: 0 9px;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+}
+
+.btns {
+    margin-top: 25px;
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+    gap: 20px;
+}
+
+.btn2 {
+    width: 120px;
+    height: 32px;
+    font-size: smaller;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 600;
+}
+
+.subthred-btn {
+    margin: 30px 0 0 40px
+}
+
+.title-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-input input {
+    Width: 422px;
+    Height: 43px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.tools {
+    Width:
+        422px;
+    Height:
+        82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 35px;
+}
+
+.tools-first {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.black-content {
+    Width:
+        422px;
+    Height:
+        142px;
+    border: none;
+    margin-left: 35px;
+    box-shadow: 8px 5px 2px rgba(190, 188, 188, 0.797);
+}
+
+.box {
+    Width:
+        434px;
+    Height:
+        43px;
+    border: 1px solid gray;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.intro-b {
+    margin: 0 20px 30px 20px;
+}
+
+.seemore {
+    color: #606161;
+    position: absolute;
+    right: 20px;
+}
+
+.thredk {
+    margin-top: 70px;
+}
+
+.example{
+    margin-top: 82px;
+    margin-left: 51px;
+}
+
+.example-had {
+    Width:
+        394px;
+    Height:
+        43px;
+    border: 1px solid gray;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+.about{
+    margin-top: 9px;
+}
+
+.icons{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.icon{
+    background-color: #0029FF;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 12px;
+}
